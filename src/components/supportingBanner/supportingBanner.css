@@ -1,0 +1,59 @@
+.supporting_banner_card {
+  background: linear-gradient(
+    180deg,
+    rgba(69, 64, 65, 0.4485) 0%,
+    rgba(29, 28, 32, 0) 110.4%
+  );
+  height: 352px;
+  flex-basis: calc(33.3333% - 20px);
+  border-radius: 24px;
+  border: 1px solid #ffffff14;
+  position: relative;
+  padding: 25px;
+  overflow: hidden;
+}
+.globe {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 272px;
+  height: 272px;
+  z-index: 1;
+}
+.seller {
+  position: absolute;
+  top: 55%;
+  transform: translateY(-55%);
+  left: 23%;
+  transform: translateX(-50%);
+  width: 185px;
+  /* height: 32px; */
+  z-index: 2;
+}
+.fastest {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-70%);
+  left: 60%;
+  transform: translateX(-50%);
+  width: 185px;
+  z-index: 2;
+}
+
+.store {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
+.boxes {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
