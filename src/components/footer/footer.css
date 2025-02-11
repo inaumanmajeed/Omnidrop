@@ -1,0 +1,15 @@
+.list {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.list li {
+  color: #ffffff99;
+  cursor: pointer;
+}
+
+.list li:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
