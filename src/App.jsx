@@ -1,7 +1,8 @@
-import Banner from "./components/banner/Banner";
-import Faq from "./components/faq/Faq";
-import Pricing from "./components/pricing/Pricing";
-import SupportingBanner from "./components/supportingBanner/SupportingBanner";
+import Banner from './components/banner/Banner';
+import Faq from './components/faq/Faq';
+import Packages from './components/packages/Packages';
+import Pricing from './components/pricing/Pricing';
+import SupportingBanner from './components/supportingBanner/SupportingBanner';
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <SupportingBanner />
       <Pricing />
       <Faq />
+      <Packages />
     </div>
   );
 };
