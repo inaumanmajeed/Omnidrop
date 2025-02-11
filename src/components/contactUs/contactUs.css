@@ -1,0 +1,21 @@
+.contact__us__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-image: url('../../assets/images/footerBg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-size: 88px;
+  gap: 50px;
+  width: 100%;
+  border-radius: 30px 30px 0 0;
+}
+
+.button__contact {
+  border: 4px solid #6b718f;
+
+}

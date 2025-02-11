@@ -1,4 +1,5 @@
 import Banner from './components/banner/Banner';
+import ContactUs from './components/contactUs/ContactUs';
 import Faq from './components/faq/Faq';
 import Packages from './components/packages/Packages';
 import Pricing from './components/pricing/Pricing';
@@ -12,6 +13,7 @@ const App = () => {
       <Pricing />
       <Faq />
       <Packages />
+      <ContactUs />
     </div>
   );
 };
