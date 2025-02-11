@@ -1,4 +1,5 @@
 import Banner from "./components/banner/Banner";
+import Faq from "./components/faq/Faq";
 import Pricing from "./components/pricing/Pricing";
 import SupportingBanner from "./components/supportingBanner/SupportingBanner";
 
@@ -8,6 +9,7 @@ const App = () => {
       <Banner />
       <SupportingBanner />
       <Pricing />
+      <Faq />
     </div>
   );
 };
