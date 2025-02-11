@@ -8,30 +8,39 @@ const Footer = () => {
       <img
         src={LogoText}
         alt="Omnidrop Logo"
+        data-aos="zoom-in-up"
         className="absolute bottom-16 right-48"
       />
       <div />
       <div className="flex justify-between items-start w-full px-48">
-        <img src={Logo} alt="Omnidrop Logo" className="" />
+        <img
+          data-aos="zoom-in-up"
+          src={Logo}
+          alt="Omnidrop Logo"
+          className=""
+        />
         <div className="flex gap-20">
           <ul className="list">
-            <li>Pages</li>
-            <li>Features</li>
-            <li>FAQs</li>
-            <li>Affiliates</li>
+            <li data-aos="zoom-in-up">Pages</li>
+            <li data-aos="zoom-in-up">Features</li>
+            <li data-aos="zoom-in-up">FAQs</li>
+            <li data-aos="zoom-in-up">Affiliates</li>
           </ul>
           <ul className="list">
-            <li>Terms and conditions</li>
-            <li>Privacy policy</li>
+            <li data-aos="zoom-in-up">Terms and conditions</li>
+            <li data-aos="zoom-in-up">Privacy policy</li>
           </ul>
           <ul className="list">
-            <li>Follow us on</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
+            <li data-aos="zoom-in-up">Follow us on</li>
+            <li data-aos="zoom-in-up">Twitter</li>
+            <li data-aos="zoom-in-up">Instagram</li>
           </ul>
         </div>
       </div>
-      <p className="text-[#FFFFFF99] text-left w-full px-48">
+      <p
+        data-aos="zoom-in-up"
+        className="text-[#FFFFFF99] text-left w-full px-48"
+      >
         © Copyright 2024 OMNIDROP HOLDING LLC, WY, US
       </p>
     </div>

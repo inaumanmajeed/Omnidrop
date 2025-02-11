@@ -14,6 +14,7 @@ const Accordion = ({ data }) => {
       {data.map((item, index) => (
         <div
           key={index}
+          data-aos="zoom-in-up"
           className="accordion-item bg-[#F4F4F4] mb-8 rounded-2xl p-6"
         >
           <div
@@ -28,7 +29,9 @@ const Accordion = ({ data }) => {
             />
           </div>
           {activeIndex === index && (
-            <div className="accordion-content font-normal pt-5">{item.content}</div>
+            <div className="accordion-content font-normal pt-5">
+              {item.content}
+            </div>
           )}
         </div>
       ))}

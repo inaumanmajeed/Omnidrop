@@ -6,7 +6,7 @@ const Packages = () => {
     <div className="pt-8 pb-20 px-16 w-full">
       <div className="w-full flex-wrap flex gap-20 items-center justify-center">
         {/* card One */}
-        <div className="card__wrapper">
+        <div data-aos="zoom-in-right" className="card__wrapper">
           <h6 className="flex flex-col text-[#18181B] text-[26px] font-semibold">
             All-in-One Monthly
             <p>
@@ -40,14 +40,14 @@ const Packages = () => {
           </ul>
         </div>
         {/* card Two */}
-        <div className="card__wrapper popular__card">
+        <div data-aos="zoom-in-left" className="card__wrapper popular__card">
           <div className="popular__card__header popular__card">
             <p className="uppercase font-semibold text-[14px]">most popular</p>
           </div>
           <h6 className="flex flex-col text-[#18181B] text-[26px] font-semibold">
-            All-in-One Monthly
+            All-in-One Yearly
             <p>
-              49.99$ <span className="font-normal text-xs">/month</span>
+              39.99$ <span className="font-normal text-xs">/month</span>
             </p>
           </h6>
           <Button

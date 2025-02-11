@@ -9,7 +9,10 @@ const SupportingBanner = () => {
   return (
     <div className="supporting_banner_container w-full px-5 flex justify-center items-center">
       <div className="bg-[#242425] w-full flex rounded-b-[30px] justify-center items-center">
-        <div className="supporting_banner h-[412px] text-white w-full flex-wrap flex justify-between border-[0.5px] rounded-[30px] border-[#FFFFFF2E] p-6 items-center">
+        <div
+          data-aos="fade-up"
+          className="supporting_banner h-[412px] text-white w-full flex-wrap flex justify-between border-[0.5px] rounded-[30px] border-[#FFFFFF2E] p-6 items-center"
+        >
           {/* card one */}
           <div className="supporting_banner_card">
             <img src={Globe} alt="globe" className="globe" />
