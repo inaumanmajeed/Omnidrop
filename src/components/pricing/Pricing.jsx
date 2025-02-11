@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="w-[80%] flex flex-col items-center justify-center gap-20 ">
         <p
           data-aos="zoom-in"
-          className="text-[64px] font-normal text-center leading-[63px]"
+          className="text-[clamp(34px,5vw,64px)] font-normal text-center leading-[63px]"
         >
           Discover why thousands of dropshippers use Omnidrop
         </p>
@@ -18,7 +18,7 @@ const Pricing = () => {
           <div data-aos="zoom-in-right" className="pricing__card">
             <div className="h-1/2 bg-white relative">
               <img
-                className="absolute left-0 right-0 bottom-0 object-cover h-full w-full"
+                className="absolute left-1/2 -translate-x-1/2 bottom-0 pricing__images object-cover h-full w-full"
                 src={PricingImg}
                 alt="pricing"
               />
@@ -49,7 +49,7 @@ const Pricing = () => {
           <div data-aos="zoom-in-left" className="pricing__card">
             <div className="h-1/2 bg-white relative">
               <img
-                className="absolute left-0 right-0 bottom-0 object-cover h-full w-full"
+                className="absolute left-1/2 pricing__images -translate-x-1/2 bottom-0 object-cover h-full w-full"
                 src={AutomateImg}
                 alt="pricing"
               />

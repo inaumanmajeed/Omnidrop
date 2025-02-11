@@ -3,7 +3,7 @@ import { FAQ_DATA } from '../../static/FaqData';
 
 const Faq = () => {
   return (
-    <div className="pt-8 pb-20 px-16 w-full">
+    <div className="pt-8 faq__content pb-20 px-16 w-full">
       <div>
         <p
           data-aos="zoom-out-down"
@@ -12,10 +12,18 @@ const Faq = () => {
           FAQ
           <span className="w-[6px] h-[6px] rounded-full bg-[#242424]" />
         </p>
-        <p data-aos="zoom-in-right" className="font-normal leading-[75px] mt-4 text-[68px]">
+        <p
+          data-aos="zoom-in-right"
+          className="font-normal mt-4 text-[clamp(38px,5vw,68px)]"
+        >
           Everything you
         </p>
-        <p data-aos="zoom-in-right" className="font-normal leading-[75px] text-[68px]">need to know</p>
+        <p
+          data-aos="zoom-in-right"
+          className="font-normal text-[clamp(38px,5vw,68px)]"
+        >
+          need to know
+        </p>
         <Accordion data={FAQ_DATA} />
       </div>
     </div>

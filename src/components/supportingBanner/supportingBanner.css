@@ -1,3 +1,7 @@
+.supporting_banner {
+  overflow-x: auto;
+}
+
 .supporting_banner_card {
   background: linear-gradient(
     180deg,
@@ -5,7 +9,8 @@
     rgba(29, 28, 32, 0) 110.4%
   );
   height: 352px;
-  flex-basis: calc(33.3333% - 20px);
+  width: 420px;
+  min-width: 420px;
   border-radius: 24px;
   border: 1px solid #ffffff14;
   position: relative;

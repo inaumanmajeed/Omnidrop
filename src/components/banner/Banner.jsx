@@ -24,13 +24,13 @@ const Banner = () => {
             />
           </div>
           <Button
-            className={"bg-[#F9CB22] py-2 rounded-[30px] font-medium px-5"}
+            className={"bg-[#F9CB22] btn__adjustment py-2 rounded-[30px] font-medium px-5"}
             title={"Contact Us"}
           />
         </nav>
         {/* banner content */}
         <div className="banner-content flex gap-10 items-center justify-center">
-          <div className="flex flex-col items-start ml-40">
+          <div className="flex flex-col banner__text items-start ml-40">
             <p className="text-[#FFFFFF] text-lg text-center font-normal">
               The All-In-One Platform To Start,
             </p>
